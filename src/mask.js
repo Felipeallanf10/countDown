@@ -1,7 +1,7 @@
 import './css/style.css'
 import IMask from 'imask'
 
-const input_text_pattern = IMask(document.getElementById('input_text'), {
+var input_text_pattern = IMask(document.getElementById('input_text'), {
   mask: /[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/
 })
 

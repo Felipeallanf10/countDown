@@ -1,6 +1,3 @@
-document.querySelector('form').addEventListener('submit', (event) => {
-  event.preventDefault()
-})
 // Set the date we're counting down to
 var countDownDate = new Date('Jul 19, 2023 15:37:25').getTime()
 // Update the count down every 1 second
@@ -57,7 +54,6 @@ btn_1.addEventListener('click', () => {
 })
 
 btn_2.addEventListener('submit', () => {
-  alert('You are inscribled')
   form.classList.remove('form_active')
   full.classList.remove('active')
 })
@@ -66,5 +62,3 @@ full.addEventListener('click', () => {
   form.classList.toggle('form_active')
   full.classList.remove('active')
 })
-
-
